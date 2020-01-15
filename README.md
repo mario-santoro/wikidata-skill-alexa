@@ -1,5 +1,4 @@
 # Skill Alexa per l'interrogazione di Wikidata (Knowledge Graph)
------------
 L’avvento dell’era digitale ha portato ad un’esplosione di informazioni sottoforma di notizie, articoli, social media e così via. Ogni individuo dotato di un dispositivo elettronico produce inconsapevolmente, ogni giorno, migliaia di dati. 
 E' necessario modellare i dati in modo che possano essere interrogati facilmente. Un approccio possibile è modellarli attraverso un Knowledge Graph (con l'acronimo KG), sebbene non vi sia una definizione chiara di KG, un'interpretazione comune è che esso rappresenta una raccolta di descrizioni interconnesse di entità: oggetti del mondo reale, eventi, situazioni o concetti astratti. Spesso contengono grandi volumi di informazioni fattuali con semantica meno formale. In alcuni contesti, il termine Knowledge Graph viene utilizzato per riferirsi a qualsiasi Knowledge base rappresentata come grafo. Esso costituisce dunque un ambiente volto a facilitare la raccolta, l'organizzazione e la distribuzione della conoscenza. Un'ulteriore classificazione distingue KG proprietari e quelli gestiti da community, possono essere specializzate o general purpose.
 Ma per interrogare i KG sono necessari linguaggi come SPARQL che si rivelano essere non alla portata di tutti. SPARQL si è affermato tra i principali strumenti di interrogazione nonostante la sua complessità. Nasce così la necessità di rendere accessibili questi dati anche per persone senza competenze tecniche in query language, in generale, e SPARQL, in particolare.
@@ -15,9 +14,9 @@ Al fine di una valutazione corretta della skill si è scelto di effettuare testi
 
 
 L’obiettivo di tesi è dunque: la creazione di una skill Alexa per permettere l’interrogazione (in linguaggio naturale) di un Knowledge Graph, cioè Wikidata.
-------------
+----
 
-#Istruzioni
+# Istruzioni
 - copiare e incollare il contenuto del file "interactionModel.json" nel JSON editor dell'Alexa Developer Console;
 - import del file zip "Alexa.zip", contenente le librerie e il back-end in NodeJS, nella lambda function di AWS;
 - collegare il modello di interazione e la lambda function con l'end point nell'Alexa Developer Console.
