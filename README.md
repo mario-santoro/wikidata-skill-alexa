@@ -16,11 +16,11 @@ Al fine di una valutazione corretta della skill si è scelto di effettuare testi
 L’obiettivo di tesi è dunque: la creazione di una skill Alexa per permettere l’interrogazione (in linguaggio naturale) di un Knowledge Graph, cioè Wikidata.
 ----
 
-# Istruzioni
+# Istruzioni per l'import
 - copiare e incollare il contenuto del file "interactionModel.json" nel JSON editor dell'Alexa Developer Console;
 - import del file zip "Alexa.zip", contenente le librerie e il back-end in NodeJS, nella lambda function di AWS;
 - collegare il modello di interazione e la lambda function con l'end point nell'Alexa Developer Console.
 
-#Logo dipartimento e logo isisLab 
+# Logo dipartimento e logo isisLab 
 La skill è disponibile online nello store inglese al link:
 https://www.amazon.co.uk/Mario-wikidata/dp/B082M5ZH4T/ref=sr_1_1?keywords=wikidata+skill&qid=1579081541&sr=8-1
