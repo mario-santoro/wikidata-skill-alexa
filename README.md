@@ -25,4 +25,4 @@ L’obiettivo di tesi è dunque: la creazione di una skill Alexa per permettere 
 <img  height="200" src="https://github.com/mario-santoro/wikidata-skill-alexa/blob/master/img/isisLab.png">
 
 La skill è disponibile online nello store inglese al link:
-https://www.amazon.co.uk/Mario-wikidata/dp/B082M5ZH4T/ref=sr_1_1?keywords=wikidata+skill&qid=1579081541&sr=8-1
+https://www.amazon.co.uk/Mario-wikidata/dp/B082M5ZH4T/ref=sr_1_1?
