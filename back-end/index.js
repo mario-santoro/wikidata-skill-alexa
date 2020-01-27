@@ -6,7 +6,7 @@ var request = require('sync-request');
   instance: 'https://www.wikidata.org',
   sparqlEndpoint: 'https://query.wikidata.org/sparql'
 });
-const invocationName = "querying wikidata";
+const invocationName = "querying  wikidata";
 var array=[];
 
 
@@ -1390,7 +1390,7 @@ return c;
 function getSuperlativeQuery(ids,p,superlativo){
 
 let ord='';
-if(superlativo=='less'){
+if(superlativo=='least'){
 ord='ASC'
 }else if(superlativo=='most'){
 ord='DESC'
@@ -1677,7 +1677,7 @@ c=b.results.bindings[0].cittaLabel.value;
 function getSuperlativeFilter(ids,p,superlativo,filter){
 
 let ord='';
-if(superlativo=='less'){
+if(superlativo=='least'){
 ord='ASC'
 }else if(superlativo=='most'){
 ord='DESC'
@@ -2230,7 +2230,7 @@ exports.handler = skillBuilder
         getLocation_Handler, 
         getSuperlative_Handler,
         getImg_Handler,
-        getQuantity_Handler,
+       // getQuantity_Handler,
         getResultFilter_Handler,
         getResultReverse_Handler,
         getSuperlativeFilter_Handler,
