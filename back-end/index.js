@@ -6,7 +6,7 @@ var request = require('sync-request');
   instance: 'https://www.wikidata.org',
   sparqlEndpoint: 'https://query.wikidata.org/sparql'
 });
-const invocationName = "querying  wikidata";
+const invocationName = "querying wikidata";
 var array=[];
 
 
@@ -1390,9 +1390,9 @@ return c;
 function getSuperlativeQuery(ids,p,superlativo){
 
 let ord='';
-if(superlativo=='least'){
+if(superlativo=='minimum'||superlativo=='lowest'){
 ord='ASC'
-}else if(superlativo=='most'){
+}else if(superlativo=='maximum'||superlativo=='highest'){
 ord='DESC'
 }
 
@@ -1677,9 +1677,9 @@ c=b.results.bindings[0].cittaLabel.value;
 function getSuperlativeFilter(ids,p,superlativo,filter){
 
 let ord='';
-if(superlativo=='least'){
+if(superlativo=='minimum'||superlativo=='lowest'){
 ord='ASC'
-}else if(superlativo=='most'){
+}else if(superlativo=='maximum'||superlativo=='highest'){
 ord='DESC'
 }
 
